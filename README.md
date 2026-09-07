@@ -9,7 +9,7 @@
 
 <div align="center">
 
-<img src="assets/images/professional-banner.png" 
+<img src="assets/images/professional banner.png" 
      width="100%" 
      style="max-width: 850px; border-radius: 32px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin-bottom: 25px;" 
      alt="Mirza - BS Cybersecurity Student | Professional Banner">
