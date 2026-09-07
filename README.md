@@ -49,11 +49,9 @@ me.say_hi()
 
 # 📊 GitHub Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=mirzaairafbaig-cmd&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats">
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mirzaairafbaig-cmd&show_icons=true&theme=radical&hide_border=true)](https://github.com/mirzaairafbaig-cmd)
 
-<br>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mirzaairafbaig-cmd&layout=compact&theme=radical&hide_border=true" alt="Top Languages">
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mirzaairafbaig-cmd&layout=compact&theme=radical&hide_border=true)](https://github.com/mirzaairafbaig-cmd)
 
 # 📬 Let's Connect
 
