@@ -43,7 +43,21 @@ class Airaf_Student:
 me = Airaf_Student()
 me.say_hi()
 ```
+# 🛠️ Tech Stack
 
+<img src="https://skillicons.dev/icons?i=python,linux,wireshark,git,bash,docker&perline=6" alt="Tech Stack">
+
+# 📊 GitHub Stats
+
+<img src="https://github-readme-stats.vercel.app/api?username=mirzaairafbaig-cmd&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mirzaairafbaig-cmd&layout=compact&theme=radical&hide_border=true" alt="Top Languages">
+
+# 📬 Let's Connect
+
+Email: mirza.airaf.baig@gmail.com
+
+Feel free to explore my learning journey below 👇
+I'm always open to feedback, collaboration, and connecting with fellow cybersecurity enthusiasts.
 
 ## 👾 My Contribution Graph as Space Invaders
 
