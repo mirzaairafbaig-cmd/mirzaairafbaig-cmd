@@ -42,3 +42,15 @@ class Airaf_Student:
 
 me = Airaf_Student()
 me.say_hi()
+
+
+
+## 👾 My Contribution Graph as Space Invaders
+
+My contributions become enemies that a ship fires lasers at!
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mirzaairafbaig-cmd/mirzaairafbaig-cmd/output/commit-invaders-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mirzaairafbaig-cmd/mirzaairafbaig-cmd/output/commit-invaders.svg">
+  <img alt="Commit Invaders" src="https://raw.githubusercontent.com/mirzaairafbaig-cmd/mirzaairafbaig-cmd/output/commit-invaders.svg" width="100%">
+</picture>
