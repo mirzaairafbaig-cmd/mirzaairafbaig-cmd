@@ -1,0 +1,1048 @@
+<svg viewBox="0 0 720 171" width="720" height="171" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<symbol id="sprite-ship" viewBox="-4.5 -4.5 9 9">
+  <!-- Fuselage -->
+  <rect x="-1.3499999999999999" y="-2.025" width="4.95" height="4.05" fill="#4488ff" />
+  <!-- Nose cone -->
+  <polygon points="3.6,0 0.9,-2.025 0.9,2.025" fill="#5599ff" />
+  <!-- Cockpit -->
+  <rect x="0.45" y="-0.9" width="1.575" height="1.8" fill="#aaddff" rx="0.5" />
+  <!-- Upper wing -->
+  <polygon points="-2.25,-2.025 -4.5,-4.5 -0.45,-2.025" fill="#3377dd" />
+  <!-- Lower wing -->
+  <polygon points="-2.25,2.025 -4.5,4.5 -0.45,2.025" fill="#3377dd" />
+  <!-- Engine ports -->
+  <rect x="-4.5" y="-2.475" width="1.125" height="1.125" fill="#88ccff" opacity="0.8" />
+  <rect x="-4.5" y="1.3499999999999999" width="1.125" height="1.125" fill="#88ccff" opacity="0.8" />
+  <!-- Engine glow -->
+  <rect x="-4.7250000000000005" y="-1.3499999999999999" width="1.3499999999999999" height="0.6749999999999999" fill="#aaeeff" opacity="0.5" />
+  <rect x="-4.7250000000000005" y="0.6749999999999999" width="1.3499999999999999" height="0.6749999999999999" fill="#aaeeff" opacity="0.5" />
+</symbol>
+<symbol id="sprite-invader-1" viewBox="-4.5 -4.5 9 9">
+  <g transform="rotate(90)">
+    <rect x="-1.5" y="-3.5" width="3" height="1" fill="#e06080" />
+    <rect x="-3.5" y="-2.5" width="7" height="2" fill="#e06080" />
+    <rect x="-4.5" y="-0.5" width="9" height="2" fill="#ff7799" />
+    <rect x="-3.5" y="1.5" width="2" height="2" fill="#e06080" />
+    <rect x="1.5" y="1.5" width="2" height="2" fill="#e06080" />
+  </g>
+</symbol>
+<symbol id="sprite-invader-2" viewBox="-4.5 -4.5 9 9">
+  <g transform="rotate(90)">
+    <rect x="-3.5" y="-4.5" width="2" height="1" fill="#dd5533" />
+    <rect x="1.5" y="-4.5" width="2" height="1" fill="#dd5533" />
+    <rect x="-4.5" y="-3.5" width="3" height="2" fill="#dd5533" />
+    <rect x="1.5" y="-3.5" width="3" height="2" fill="#dd5533" />
+    <rect x="-3.5" y="-1.5" width="7" height="3" fill="#ff6644" />
+    <rect x="-4.5" y="1.5" width="9" height="1" fill="#dd5533" />
+    <rect x="-4.5" y="2.5" width="2" height="2" fill="#ff6644" />
+    <rect x="2.5" y="2.5" width="2" height="2" fill="#ff6644" />
+  </g>
+</symbol>
+<symbol id="sprite-invader-3" viewBox="-4.5 -4.5 9 9">
+  <g transform="rotate(90)">
+    <rect x="-2.5" y="-4.5" width="5" height="1" fill="#bb44cc" />
+    <rect x="-4.5" y="-3.5" width="9" height="2" fill="#cc55dd" />
+    <rect x="-4.5" y="-1.5" width="2" height="2" fill="#bb44cc" />
+    <rect x="-1.5" y="-1.5" width="3" height="2" fill="#dd66ee" />
+    <rect x="2.5" y="-1.5" width="2" height="2" fill="#bb44cc" />
+    <rect x="-3.5" y="0.5" width="2" height="2" fill="#cc55dd" />
+    <rect x="1.5" y="0.5" width="2" height="2" fill="#cc55dd" />
+    <rect x="-2.5" y="2.5" width="1" height="2" fill="#bb44cc" />
+    <rect x="1.5" y="2.5" width="1" height="2" fill="#bb44cc" />
+  </g>
+</symbol>
+<symbol id="sprite-invader-4" viewBox="-4.5 -4.5 9 9">
+  <g transform="rotate(90)">
+    <rect x="-3.5" y="-4.5" width="1" height="1" fill="#ff3333" />
+    <rect x="2.5" y="-4.5" width="1" height="1" fill="#ff3333" />
+    <rect x="-4.5" y="-3.5" width="3" height="1" fill="#ff3333" />
+    <rect x="1.5" y="-3.5" width="3" height="1" fill="#ff3333" />
+    <rect x="-4.5" y="-2.5" width="9" height="2" fill="#ff4444" />
+    <rect x="-3.5" y="-0.5" width="7" height="2" fill="#ff5555" />
+    <rect x="-2.5" y="-1.5" width="1" height="1" fill="#ffffff" opacity="0.9" />
+    <rect x="1.5" y="-1.5" width="1" height="1" fill="#ffffff" opacity="0.9" />
+    <rect x="-4.5" y="1.5" width="2" height="1" fill="#ff3333" />
+    <rect x="-1.5" y="1.5" width="3" height="1" fill="#ff4444" />
+    <rect x="2.5" y="1.5" width="2" height="1" fill="#ff3333" />
+    <rect x="-3.5" y="2.5" width="2" height="2" fill="#ff3333" />
+    <rect x="1.5" y="2.5" width="2" height="2" fill="#ff3333" />
+  </g>
+</symbol>
+<symbol id="sprite-laser" viewBox="-2 -2 4 4">
+  <rect x="-2" y="-1" width="4" height="2" fill="#bf8700" rx="1" />
+  <rect x="-1.2" y="-0.6" width="2.4" height="1.2" fill="#dfc380" />
+</symbol>
+<symbol id="sprite-explosion" viewBox="-4.5 -4.5 9 9">
+  <rect x="-1" y="-4.5" width="2" height="9" fill="#ff6644" />
+  <rect x="-4.5" y="-1" width="9" height="2" fill="#ff6644" />
+  <rect x="-3.5" y="-3.5" width="2" height="2" fill="#ffaa44" />
+  <rect x="1.5" y="-3.5" width="2" height="2" fill="#ffaa44" />
+  <rect x="-3.5" y="1.5" width="2" height="2" fill="#ffaa44" />
+  <rect x="1.5" y="1.5" width="2" height="2" fill="#ffaa44" />
+</symbol>
+</defs>
+<style>
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fade-out {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes cell-travel {
+  0% {
+    transform: translate(var(--start-x), var(--start-y));
+    width: var(--start-size);
+    height: var(--start-size);
+  }
+  100% {
+    transform: translate(var(--end-x), var(--end-y));
+    width: var(--end-size);
+    height: var(--end-size);
+  }
+}
+
+@keyframes laser-travel {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(var(--laser-travel)); }
+}
+
+@keyframes wiggle-score {
+  0% { transform: translateY(0); }
+  25% { transform: translateY(-3px); }
+  50% { transform: translateY(0); }
+  75% { transform: translateY(3px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes wiggle-nhs {
+  0% { transform: translateY(0); }
+  25% { transform: translateY(-2px); }
+  50% { transform: translateY(0); }
+  75% { transform: translateY(2px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes explode {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.8); opacity: 0.7; }
+  100% { transform: scale(2.5); opacity: 0; }
+}
+
+.explosion { transform-box: fill-box; transform-origin: center; }
+
+@keyframes gc-hide-44-6 {
+  35.99% { opacity: 1; }
+  47.83% { opacity: 0; }
+  97.47% { opacity: 0; }
+  100.00% { opacity: 1; }
+}
+
+.a0 { animation-name: gc-hide-44-6; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes gc-hide-45-0 {
+  36.54% { opacity: 1; }
+  48.38% { opacity: 0; }
+  97.47% { opacity: 0; }
+  100.00% { opacity: 1; }
+}
+
+.a1 { animation-name: gc-hide-45-0; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes gc-hide-45-1 {
+  35.52% { opacity: 1; }
+  47.36% { opacity: 0; }
+  97.47% { opacity: 0; }
+  100.00% { opacity: 1; }
+}
+
+.a2 { animation-name: gc-hide-45-1; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes overlay-opacity {
+  0.00% { opacity: 0.000; }
+  37.81% { opacity: 0.000; }
+  37.88% { opacity: 0.000; }
+  37.96% { opacity: 0.009; }
+  38.83% { opacity: 0.106; }
+  39.78% { opacity: 0.208; }
+  40.73% { opacity: 0.304; }
+  41.67% { opacity: 0.390; }
+  42.62% { opacity: 0.464; }
+  43.57% { opacity: 0.524; }
+  44.51% { opacity: 0.567; }
+  45.46% { opacity: 0.593; }
+  46.41% { opacity: 0.600; }
+  47.36% { opacity: 0.000; }
+  54.62% { opacity: 0.600; }
+  54.70% { opacity: 0.600; }
+  54.78% { opacity: 0.600; }
+  68.98% { opacity: 0.600; }
+  69.06% { opacity: 0.600; }
+  69.14% { opacity: 0.600; }
+  99.92% { opacity: 0.000; }
+}
+
+.a3 { animation-name: overlay-opacity; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes lc-cell-45-1 {
+  0.00% { opacity: 0; }
+  47.35% { opacity: 0; transform: translate(624.5px, 48.5px); }
+  47.36% { opacity: 1; transform: translate(624.5px, 48.5px); fill: #bf8700; }
+  48.93% { transform: translate(624.5px, 48.5px); fill: #bf8700; }
+  52.09% { transform: translate(710px, 41px); fill: #bf8700; }
+  52.09% { transform: translate(710px, 41px); fill: #cf222e; }
+  54.70% { transform: translate(710px, 41px); fill: #cf222e; opacity: 1; }
+  54.71% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+@keyframes lc-pluck-cell-45-1 {
+  0.00% { opacity: 0; }
+  47.35% { opacity: 0; transform: translate(624.5px, 48.5px); }
+  47.36% { opacity: 1; transform: translate(624.5px, 48.5px); }
+  48.93% { transform: translate(624.5px, 48.5px); }
+  52.09% { transform: translate(710px, 41px); }
+  52.09% { transform: translate(710px, 41px); opacity: 1; }
+  52.10% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a4 { animation-name: lc-pluck-cell-45-1; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes lc-hatch-cell-45-1 {
+  0.00% { opacity: 0; }
+  52.08% { opacity: 0; transform: translate(710px, 41px); }
+  52.09% { opacity: 0; transform: translate(710px, 41px); }
+  53.39% { opacity: 1; transform: translate(710px, 41px); }
+  54.70% { transform: translate(710px, 41px); opacity: 1; }
+  54.71% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a5 { animation-name: lc-hatch-cell-45-1; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes lc-cell-44-6 {
+  0.00% { opacity: 0; }
+  47.82% { opacity: 0; transform: translate(611.5px, 113.5px); }
+  47.83% { opacity: 1; transform: translate(611.5px, 113.5px); fill: #bf8700; }
+  49.41% { transform: translate(611.5px, 113.5px); fill: #bf8700; }
+  52.57% { transform: translate(710px, 64px); fill: #bf8700; }
+  52.57% { transform: translate(710px, 64px); fill: #cf222e; }
+  54.70% { transform: translate(710px, 64px); fill: #cf222e; opacity: 1; }
+  54.71% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+@keyframes lc-pluck-cell-44-6 {
+  0.00% { opacity: 0; }
+  47.82% { opacity: 0; transform: translate(611.5px, 113.5px); }
+  47.83% { opacity: 1; transform: translate(611.5px, 113.5px); }
+  49.41% { transform: translate(611.5px, 113.5px); }
+  52.57% { transform: translate(710px, 64px); }
+  52.57% { transform: translate(710px, 64px); opacity: 1; }
+  52.58% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a6 { animation-name: lc-pluck-cell-44-6; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes lc-hatch-cell-44-6 {
+  0.00% { opacity: 0; }
+  52.56% { opacity: 0; transform: translate(710px, 64px); }
+  52.57% { opacity: 0; transform: translate(710px, 64px); }
+  53.63% { opacity: 1; transform: translate(710px, 64px); }
+  54.70% { transform: translate(710px, 64px); opacity: 1; }
+  54.71% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a7 { animation-name: lc-hatch-cell-44-6; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes lc-cell-45-0 {
+  0.00% { opacity: 0; }
+  48.37% { opacity: 0; transform: translate(624.5px, 35.5px); }
+  48.38% { opacity: 1; transform: translate(624.5px, 35.5px); fill: #bf8700; }
+  49.96% { transform: translate(624.5px, 35.5px); fill: #bf8700; }
+  53.12% { transform: translate(710px, 87px); fill: #bf8700; }
+  53.12% { transform: translate(710px, 87px); fill: #cf222e; }
+  54.70% { transform: translate(710px, 87px); fill: #cf222e; opacity: 1; }
+  54.71% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+@keyframes lc-pluck-cell-45-0 {
+  0.00% { opacity: 0; }
+  48.37% { opacity: 0; transform: translate(624.5px, 35.5px); }
+  48.38% { opacity: 1; transform: translate(624.5px, 35.5px); }
+  49.96% { transform: translate(624.5px, 35.5px); }
+  53.12% { transform: translate(710px, 87px); }
+  53.12% { transform: translate(710px, 87px); opacity: 1; }
+  53.13% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a8 { animation-name: lc-pluck-cell-45-0; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes lc-hatch-cell-45-0 {
+  0.00% { opacity: 0; }
+  53.11% { opacity: 0; transform: translate(710px, 87px); }
+  53.12% { opacity: 0; transform: translate(710px, 87px); }
+  53.91% { opacity: 1; transform: translate(710px, 87px); }
+  54.70% { transform: translate(710px, 87px); opacity: 1; }
+  54.71% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a9 { animation-name: lc-hatch-cell-45-0; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes osc-0 {
+  54.70% { transform: translate(0.0px, 0.0px); }
+  58.96% { transform: translate(0.0px, 53.0px); }
+  58.97% { transform: translate(-14.0px, 53.0px); }
+  65.67% { transform: translate(-14.0px, -31.0px); }
+  65.68% { transform: translate(-28.0px, -31.0px); }
+  69.06% { transform: translate(-28.0px, 12.0px); }
+}
+
+@keyframes inv-inv-w0-0 {
+  0.00% { opacity: 0; }
+  54.69% { opacity: 0; }
+  54.70% { opacity: 1; }
+  65.67% { opacity: 1; }
+  65.68% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a10 { animation-name: inv-inv-w0-0; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes inv-inv-w0-1 {
+  0.00% { opacity: 0; }
+  54.69% { opacity: 0; }
+  54.70% { opacity: 1; }
+  58.25% { opacity: 1; }
+  58.26% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a11 { animation-name: inv-inv-w0-1; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes inv-inv-w0-2 {
+  0.00% { opacity: 0; }
+  54.69% { opacity: 0; }
+  54.70% { opacity: 1; }
+  69.06% { opacity: 1; }
+  69.07% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a12 { animation-name: inv-inv-w0-2; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+.a13 { animation-name: osc-0; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes exp-0 {
+  0.00% { opacity: 0; transform: translate(682.0px, 10.0px) scale(1); }
+  65.66% { opacity: 0; transform: translate(682.0px, 10.0px) scale(1); }
+  65.67% { opacity: 1; transform: translate(682.0px, 10.0px) scale(1); }
+  66.38% { opacity: 0.7; transform: translate(682.0px, 10.0px) scale(1.8); }
+  67.09% { opacity: 0; transform: translate(682.0px, 10.0px) scale(2.5); }
+  67.10% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a14 { animation-name: exp-0; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes exp-1 {
+  0.00% { opacity: 0; transform: translate(710.0px, 109.0px) scale(1); }
+  58.24% { opacity: 0; transform: translate(710.0px, 109.0px) scale(1); }
+  58.25% { opacity: 1; transform: translate(710.0px, 109.0px) scale(1); }
+  58.96% { opacity: 0.7; transform: translate(710.0px, 109.0px) scale(1.8); }
+  59.67% { opacity: 0; transform: translate(710.0px, 109.0px) scale(2.5); }
+  59.68% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a15 { animation-name: exp-1; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes exp-2 {
+  0.00% { opacity: 0; transform: translate(682.0px, 99.0px) scale(1); }
+  69.05% { opacity: 0; transform: translate(682.0px, 99.0px) scale(1); }
+  69.06% { opacity: 1; transform: translate(682.0px, 99.0px) scale(1); }
+  69.77% { opacity: 0.7; transform: translate(682.0px, 99.0px) scale(1.8); }
+  70.48% { opacity: 0; transform: translate(682.0px, 99.0px) scale(2.5); }
+  70.49% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a16 { animation-name: exp-2; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes lsr-laser-0 {
+  0.00% { opacity: 0; }
+  55.63% { opacity: 0; }
+  55.64% { opacity: 1; transform: translateX(0); }
+  58.25% { opacity: 1; transform: translateX(660.0px); }
+  58.26% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a17 { animation-name: lsr-laser-0; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes lsr-laser-1 {
+  0.00% { opacity: 0; }
+  59.11% { opacity: 0; }
+  59.12% { opacity: 1; transform: translateX(0); }
+  61.88% { opacity: 1; transform: translateX(686.4px); }
+  61.89% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a18 { animation-name: lsr-laser-1; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes lsr-laser-2 {
+  0.00% { opacity: 0; }
+  63.05% { opacity: 0; }
+  63.06% { opacity: 1; transform: translateX(0); }
+  65.67% { opacity: 1; transform: translateX(660.0px); }
+  65.68% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a19 { animation-name: lsr-laser-2; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes lsr-laser-3 {
+  0.00% { opacity: 0; }
+  66.53% { opacity: 0; }
+  66.54% { opacity: 1; transform: translateX(0); }
+  69.06% { opacity: 1; transform: translateX(640.0px); }
+  69.07% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a20 { animation-name: lsr-laser-3; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes lsr-laser-4 {
+  0.00% { opacity: 0; }
+  68.02% { opacity: 0; }
+  68.03% { opacity: 1; transform: translateX(0); }
+  70.80% { opacity: 1; transform: translateX(683.4px); }
+  70.81% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a21 { animation-name: lsr-laser-4; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes ship-move {
+  0% { transform: translate(14.0px, 75.5px); opacity: 0; }
+  30.78% { transform: translate(14.0px, 75.5px); opacity: 0; }
+  37.88% { transform: translate(14.0px, 75.5px); opacity: 1; }
+  54.69% { transform: translate(14.0px, 75.5px); opacity: 1; }
+  54.70% { transform: translate(25.1px, 78.5px); opacity: 1; }
+  54.78% { transform: translate(25.1px, 81.5px); opacity: 1; }
+  54.85% { transform: translate(25.1px, 84.5px); opacity: 1; }
+  54.93% { transform: translate(25.1px, 87.5px); opacity: 1; }
+  55.01% { transform: translate(25.1px, 90.5px); opacity: 1; }
+  55.09% { transform: translate(25.1px, 93.5px); opacity: 1; }
+  55.17% { transform: translate(25.1px, 96.5px); opacity: 1; }
+  55.25% { transform: translate(25.1px, 99.5px); opacity: 1; }
+  55.33% { transform: translate(25.1px, 102.5px); opacity: 1; }
+  55.41% { transform: translate(25.1px, 105.5px); opacity: 1; }
+  55.49% { transform: translate(25.1px, 108.5px); opacity: 1; }
+  55.56% { transform: translate(25.1px, 110.0px); opacity: 1; }
+  55.64% { transform: translate(25.1px, 110.0px); opacity: 1; }
+  57.54% { transform: translate(23.6px, 107.0px); opacity: 1; }
+  57.62% { transform: translate(23.6px, 104.0px); opacity: 1; }
+  57.70% { transform: translate(23.6px, 101.0px); opacity: 1; }
+  57.77% { transform: translate(23.6px, 98.0px); opacity: 1; }
+  57.85% { transform: translate(23.6px, 95.0px); opacity: 1; }
+  57.93% { transform: translate(23.6px, 92.0px); opacity: 1; }
+  58.01% { transform: translate(23.6px, 89.0px); opacity: 1; }
+  58.09% { transform: translate(23.6px, 86.0px); opacity: 1; }
+  58.17% { transform: translate(23.6px, 83.0px); opacity: 1; }
+  58.25% { transform: translate(23.6px, 80.0px); opacity: 1; }
+  58.33% { transform: translate(23.6px, 77.0px); opacity: 1; }
+  58.41% { transform: translate(23.6px, 74.0px); opacity: 1; }
+  58.48% { transform: translate(23.6px, 71.0px); opacity: 1; }
+  58.56% { transform: translate(23.6px, 68.0px); opacity: 1; }
+  58.64% { transform: translate(23.6px, 65.0px); opacity: 1; }
+  58.72% { transform: translate(23.6px, 62.0px); opacity: 1; }
+  58.80% { transform: translate(23.6px, 59.0px); opacity: 1; }
+  58.88% { transform: translate(23.6px, 56.0px); opacity: 1; }
+  58.96% { transform: translate(23.6px, 53.0px); opacity: 1; }
+  59.04% { transform: translate(23.6px, 50.4px); opacity: 1; }
+  59.12% { transform: translate(23.6px, 50.4px); opacity: 1; }
+  60.22% { transform: translate(25.1px, 47.4px); opacity: 1; }
+  60.30% { transform: translate(25.1px, 44.4px); opacity: 1; }
+  60.38% { transform: translate(25.1px, 41.4px); opacity: 1; }
+  60.46% { transform: translate(25.1px, 38.4px); opacity: 1; }
+  60.54% { transform: translate(25.1px, 35.4px); opacity: 1; }
+  60.62% { transform: translate(25.1px, 32.4px); opacity: 1; }
+  60.69% { transform: translate(25.1px, 29.4px); opacity: 1; }
+  60.77% { transform: translate(25.1px, 26.4px); opacity: 1; }
+  60.85% { transform: translate(25.1px, 23.4px); opacity: 1; }
+  60.93% { transform: translate(25.1px, 20.4px); opacity: 1; }
+  61.01% { transform: translate(25.1px, 17.4px); opacity: 1; }
+  61.09% { transform: translate(25.1px, 14.4px); opacity: 1; }
+  61.17% { transform: translate(25.1px, 11.4px); opacity: 1; }
+  61.25% { transform: translate(25.1px, 10.0px); opacity: 1; }
+  63.06% { transform: translate(25.1px, 10.0px); opacity: 1; }
+  64.17% { transform: translate(25.1px, 13.0px); opacity: 1; }
+  64.25% { transform: translate(25.1px, 16.0px); opacity: 1; }
+  64.33% { transform: translate(25.1px, 19.0px); opacity: 1; }
+  64.40% { transform: translate(25.1px, 22.0px); opacity: 1; }
+  64.48% { transform: translate(25.1px, 25.0px); opacity: 1; }
+  64.56% { transform: translate(25.1px, 28.0px); opacity: 1; }
+  64.64% { transform: translate(25.1px, 31.0px); opacity: 1; }
+  64.72% { transform: translate(25.1px, 34.0px); opacity: 1; }
+  64.80% { transform: translate(25.1px, 37.0px); opacity: 1; }
+  64.88% { transform: translate(25.1px, 40.0px); opacity: 1; }
+  64.96% { transform: translate(25.1px, 43.0px); opacity: 1; }
+  65.04% { transform: translate(25.1px, 46.0px); opacity: 1; }
+  65.11% { transform: translate(25.1px, 49.0px); opacity: 1; }
+  65.19% { transform: translate(25.1px, 52.0px); opacity: 1; }
+  65.27% { transform: translate(25.1px, 55.0px); opacity: 1; }
+  65.35% { transform: translate(25.1px, 58.0px); opacity: 1; }
+  65.43% { transform: translate(25.1px, 61.0px); opacity: 1; }
+  65.51% { transform: translate(25.1px, 64.0px); opacity: 1; }
+  65.59% { transform: translate(25.1px, 67.0px); opacity: 1; }
+  65.67% { transform: translate(25.1px, 70.0px); opacity: 1; }
+  65.75% { transform: translate(25.1px, 73.0px); opacity: 1; }
+  65.82% { transform: translate(25.1px, 76.0px); opacity: 1; }
+  65.90% { transform: translate(25.1px, 79.0px); opacity: 1; }
+  65.98% { transform: translate(25.1px, 82.0px); opacity: 1; }
+  66.06% { transform: translate(25.1px, 85.0px); opacity: 1; }
+  66.14% { transform: translate(25.1px, 88.0px); opacity: 1; }
+  66.22% { transform: translate(25.1px, 91.0px); opacity: 1; }
+  66.30% { transform: translate(25.1px, 94.0px); opacity: 1; }
+  66.38% { transform: translate(25.1px, 97.0px); opacity: 1; }
+  66.46% { transform: translate(25.1px, 100.0px); opacity: 1; }
+  66.54% { transform: translate(25.1px, 100.0px); opacity: 1; }
+  67.56% { transform: translate(26.6px, 97.0px); opacity: 1; }
+  67.64% { transform: translate(26.6px, 94.0px); opacity: 1; }
+  67.72% { transform: translate(26.6px, 91.0px); opacity: 1; }
+  67.80% { transform: translate(26.6px, 88.0px); opacity: 1; }
+  67.88% { transform: translate(26.6px, 85.0px); opacity: 1; }
+  67.96% { transform: translate(26.6px, 83.5px); opacity: 1; }
+  68.03% { transform: translate(26.6px, 83.5px); opacity: 1; }
+  69.06% { opacity: 1; }
+  73.80% { opacity: 0; transform: translate(14.0px, 75.5px); }
+  100% { opacity: 0; transform: translate(14.0px, 75.5px); }
+}
+
+.a22 { animation-name: ship-move; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes wave-label-0 {
+  0.00% { opacity: 0; }
+  33.14% { opacity: 0; }
+  33.15% { opacity: 1; }
+  54.70% { opacity: 1; }
+  54.71% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a23 { animation-name: wave-label-0; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes score-0 {
+  0.00% { opacity: 0; }
+  33.14% { opacity: 0; }
+  33.15% { opacity: 1; }
+  58.25% { opacity: 1; }
+  58.26% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a24 { animation-name: score-0; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes score-1 {
+  0.00% { opacity: 0; }
+  58.24% { opacity: 0; }
+  58.25% { opacity: 1; }
+  65.67% { opacity: 1; }
+  65.68% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a25 { animation-name: score-1; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes score-2 {
+  0.00% { opacity: 0; }
+  65.66% { opacity: 0; }
+  65.67% { opacity: 1; }
+  69.06% { opacity: 1; }
+  69.07% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a26 { animation-name: score-2; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes score-3 {
+  0.00% { opacity: 0; }
+  69.05% { opacity: 0; }
+  69.06% { opacity: 1; }
+  69.06% { opacity: 1; }
+  73.80% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a27 { animation-name: score-3; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes status-ready-start {
+  0.00% { opacity: 0; }
+  33.14% { opacity: 0; }
+  33.15% { opacity: 1; }
+  54.70% { opacity: 1; }
+  54.71% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a28 { animation-name: status-ready-start; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes status-wave-0 {
+  0.00% { opacity: 0; }
+  54.69% { opacity: 0; }
+  54.70% { opacity: 1; }
+  69.06% { opacity: 1; }
+  69.07% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a29 { animation-name: status-wave-0; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes ending-score-text {
+  0.00% { opacity: 0; }
+  73.79% { opacity: 0; }
+  73.80% { opacity: 0; }
+  75.93% { opacity: 1; }
+  88.00% { opacity: 1; }
+  90.37% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+@keyframes blackout {
+  0.00% { opacity: 1; }
+  30.78% { opacity: 1; }
+  33.15% { opacity: 0; }
+  90.37% { opacity: 0; }
+  95.11% { opacity: 1; }
+  100.00% { opacity: 1; }
+}
+
+.a30 { animation-name: blackout; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+.a31 { animation-name: wiggle-score; animation-duration: 0.6s; animation-timing-function: ease-in-out; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+.a32 { animation-name: ending-score-text; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+
+@keyframes intro-board {
+  0.00% { opacity: 0; }
+  2.37% { opacity: 1; }
+  26.05% { opacity: 1; }
+  28.41% { opacity: 0; }
+  100.00% { opacity: 0; }
+}
+
+.a33 { animation-name: intro-board; animation-duration: 21.116666666666667s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+</style>
+<rect width="720" height="171" fill="#ffffff" />
+<rect class="gc" x="34" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="34" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="34" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="34" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="34" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="34" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="34" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="47" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="47" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="47" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="47" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="47" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="47" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="47" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="60" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="60" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="60" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="60" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="60" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="60" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="60" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="73" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="73" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="73" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="73" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="73" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="73" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="73" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="86" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="86" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="86" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="86" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="86" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="86" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="86" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="99" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="99" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="99" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="99" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="99" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="99" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="99" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="112" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="112" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="112" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="112" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="112" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="112" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="112" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="125" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="125" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="125" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="125" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="125" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="125" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="125" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="138" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="138" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="138" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="138" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="138" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="138" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="138" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="151" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="151" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="151" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="151" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="151" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="151" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="151" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="164" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="164" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="164" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="164" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="164" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="164" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="164" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="177" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="177" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="177" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="177" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="177" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="177" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="177" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="190" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="190" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="190" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="190" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="190" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="190" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="190" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="203" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="203" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="203" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="203" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="203" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="203" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="203" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="216" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="216" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="216" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="216" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="216" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="216" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="216" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="229" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="229" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="229" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="229" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="229" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="229" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="229" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="242" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="242" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="242" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="242" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="242" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="242" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="242" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="255" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="255" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="255" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="255" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="255" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="255" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="255" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="268" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="268" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="268" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="268" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="268" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="268" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="268" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="281" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="281" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="281" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="281" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="281" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="281" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="281" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="294" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="294" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="294" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="294" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="294" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="294" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="294" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="307" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="307" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="307" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="307" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="307" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="307" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="307" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="320" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="320" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="320" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="320" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="320" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="320" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="320" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="333" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="333" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="333" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="333" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="333" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="333" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="333" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="346" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="346" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="346" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="346" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="346" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="346" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="346" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="359" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="359" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="359" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="359" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="359" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="359" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="359" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="372" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="372" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="372" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="372" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="372" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="372" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="372" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="385" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="385" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="385" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="385" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="385" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="385" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="385" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="398" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="398" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="398" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="398" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="398" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="398" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="398" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="411" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="411" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="411" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="411" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="411" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="411" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="411" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="424" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="424" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="424" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="424" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="424" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="424" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="424" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="437" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="437" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="437" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="437" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="437" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="437" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="437" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="450" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="450" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="450" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="450" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="450" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="450" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="450" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="463" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="463" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="463" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="463" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="463" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="463" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="463" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="476" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="476" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="476" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="476" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="476" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="476" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="476" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="489" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="489" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="489" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="489" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="489" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="489" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="489" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="502" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="502" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="502" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="502" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="502" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="502" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="502" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="515" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="515" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="515" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="515" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="515" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="515" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="515" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="528" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="528" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="528" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="528" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="528" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="528" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="528" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="541" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="541" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="541" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="541" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="541" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="541" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="541" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="554" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="554" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="554" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="554" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="554" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="554" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="554" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="567" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="567" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="567" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="567" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="567" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="567" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="567" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="580" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="580" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="580" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="580" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="580" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="580" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="580" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="593" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="593" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="593" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="593" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="593" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="593" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="593" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="606" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="606" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="606" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="606" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="606" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="606" y="95" width="11" height="11" fill="#ebedf0" />
+<rect x="606" y="108" width="11" height="11" fill="#216e39" class="gc a0" />
+<rect x="619" y="30" width="11" height="11" fill="#40c463" class="gc a1" />
+<rect x="619" y="43" width="11" height="11" fill="#216e39" class="gc a2" />
+<rect class="gc" x="619" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="619" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="619" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="619" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="619" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="632" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="632" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="632" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="632" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="632" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="632" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="632" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="645" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="645" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="645" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="645" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="645" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="645" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="645" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="658" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="658" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="658" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="658" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="658" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="658" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="658" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="671" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="671" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="671" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="671" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="671" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="671" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="671" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="684" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="684" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="684" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="684" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="684" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="684" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="684" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="697" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="697" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="697" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="697" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="697" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="697" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="697" y="108" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="710" y="30" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="710" y="43" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="710" y="56" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="710" y="69" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="710" y="82" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="710" y="95" width="11" height="11" fill="#ebedf0" />
+<rect class="gc" x="710" y="108" width="11" height="11" fill="#ebedf0" />
+<rect x="0" y="0" width="720" height="171" fill="#ffffff" class="overlay a3" />
+<rect x="-4.5" y="-4.5" width="9" height="9" fill="#bf8700" opacity="0" class="a4" />
+<use href="#sprite-invader-4" x="-4.5" y="-4.5" width="9" height="9" opacity="0" class="a5" />
+<rect x="-4.5" y="-4.5" width="9" height="9" fill="#bf8700" opacity="0" class="a6" />
+<use href="#sprite-invader-4" x="-4.5" y="-4.5" width="9" height="9" opacity="0" class="a7" />
+<rect x="-4.5" y="-4.5" width="9" height="9" fill="#bf8700" opacity="0" class="a8" />
+<use href="#sprite-invader-2" x="-4.5" y="-4.5" width="9" height="9" opacity="0" class="a9" />
+<g class="a13"><use href="#sprite-invader-4" x="705.5" y="36.5" width="9" height="9" opacity="0" class="a10" /><use href="#sprite-invader-4" x="705.5" y="59.5" width="9" height="9" opacity="0" class="a11" /><use href="#sprite-invader-2" x="705.5" y="82.5" width="9" height="9" opacity="0" class="a12" /></g>
+<use href="#sprite-explosion" x="-4.5" y="-4.5" width="9" height="9" opacity="0" class="a14" />
+<use href="#sprite-explosion" x="-4.5" y="-4.5" width="9" height="9" opacity="0" class="a15" />
+<use href="#sprite-explosion" x="-4.5" y="-4.5" width="9" height="9" opacity="0" class="a16" />
+<use href="#sprite-laser" x="23.144591629598267" y="108" width="4" height="4" opacity="0" class="a17" />
+<use href="#sprite-laser" x="21.644591629598267" y="48.44930847454816" width="4" height="4" opacity="0" class="a18" />
+<use href="#sprite-laser" x="23.144591629598267" y="8" width="4" height="4" opacity="0" class="a19" />
+<use href="#sprite-laser" x="23.144591629598267" y="98" width="4" height="4" opacity="0" class="a20" />
+<use href="#sprite-laser" x="24.644591629598267" y="81.4920338219963" width="4" height="4" opacity="0" class="a21" />
+<use href="#sprite-ship" x="-4.5" y="-4.5" width="9" height="9" class="a22" />
+<text x="360" y="75.5" text-anchor="middle" dominant-baseline="middle" font-family="monospace" font-weight="bold" font-size="16" fill="#1f2328" opacity="0" class="a23">WAVE 1/1</text>
+<rect x="0" y="151" width="720" height="20" fill="#ffffff" />
+<text x="712" y="162" text-anchor="end" dominant-baseline="middle" font-family="monospace" font-weight="bold" font-size="12" fill="#1a7f37" opacity="0" class="a24">0 COMMITS</text>
+<text x="712" y="162" text-anchor="end" dominant-baseline="middle" font-family="monospace" font-weight="bold" font-size="12" fill="#1a7f37" opacity="0" class="a25">2 COMMITS</text>
+<text x="712" y="162" text-anchor="end" dominant-baseline="middle" font-family="monospace" font-weight="bold" font-size="12" fill="#1a7f37" opacity="0" class="a26">15 COMMITS</text>
+<text x="712" y="162" text-anchor="end" dominant-baseline="middle" font-family="monospace" font-weight="bold" font-size="12" fill="#1a7f37" opacity="0" class="a27">16 COMMITS</text>
+<text x="8" y="162" dominant-baseline="middle" font-family="monospace" font-size="11" fill="#656d76" class="a28">READY</text>
+<text x="8" y="162" dominant-baseline="middle" font-family="monospace" font-size="11" fill="#656d76" opacity="0" class="a29">WAVE 1/1</text>
+<rect x="0" y="0" width="720" height="171" fill="#ffffff" class="a30" />
+<g class="a31"><text x="360" y="75.5" text-anchor="middle" dominant-baseline="middle" font-family="monospace" font-weight="bold" font-size="14" fill="#1a7f37" opacity="0" class="a32">16 COMMITS</text></g>
+<g opacity="0" class="a33"><text x="360" y="20.8" text-anchor="middle" dominant-baseline="middle" font-family="monospace" font-weight="bold" font-size="13" fill="#1a7f37">HIGH SCORES</text><text x="360" y="42.4" text-anchor="middle" dominant-baseline="middle" font-family="monospace" font-weight="bold" font-size="10" fill="#bf8700">★ NEW HIGH SCORE! ★</text><text x="183.8" y="63.9" font-family="monospace" font-weight="bold" font-size="11" fill="#bf8700"> 1.</text><text x="203.6" y="63.9" font-family="monospace" font-weight="bold" font-size="11" fill="#1f2328">2026-09-07</text><text x="327.9" y="63.9" text-anchor="end" font-family="monospace" font-weight="bold" font-size="11" fill="#1a7f37">16</text><text x="183.8" y="85.5" font-family="monospace" font-weight="normal" font-size="11" fill="#656d76"> 2.</text><text x="203.6" y="85.5" font-family="monospace" font-weight="normal" font-size="11" fill="#656d76">2026-09-06</text><text x="327.9" y="85.5" text-anchor="end" font-family="monospace" font-weight="normal" font-size="11" fill="#0969da">3</text><text x="183.8" y="107.1" font-family="monospace" font-weight="normal" font-size="11" fill="#656d76"> 3.</text><text x="203.6" y="107.1" font-family="monospace" font-weight="normal" font-size="11" fill="#656d76">2026-09-05</text><text x="327.9" y="107.1" text-anchor="end" font-family="monospace" font-weight="normal" font-size="11" fill="#0969da">2</text></g>
+</svg>
